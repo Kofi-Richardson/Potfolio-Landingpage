@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+
+body{
+    background-color: rgb(29, 26, 26);
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+}
+
+.black{
+    margin: 30px;
+    /* background-color: yellow; */
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+/* Stlying the header  */
+
+.margin{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title,.header-nav{
+    margin-right: auto;
+}
+
+.header-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav ul a li {
+    margin-right: 25px;
+}
+
+.header-button button{
+    font-family: 'Montserrat' ,sans-serif;
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* landingPage */
+
+.landing{
+    width: 70%;
+}
+
+.title{
+    padding-top: 100px;
+    width: 65%;
+}
+
+.title h1{
+    font-size: 42px;
+    margin-right: auto;
+}
+
+
+/* image-slide */
+
+.image-slide{
+    padding-top: 70px;
+    width: 70%;
+}
+.image ul{
+    display: flex;
+}
+
+.image ul li{
+    margin-right: 69px;
+}
+
+
+/* blog-side */
+
+.blog-side{
+    width: 70%;
+    padding: 70px 0px;
+    display: flex;
+}
+
+.left-side,.Right-side{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.left-side h1{
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+.left-side img{
+    width: 450px;
+}
+
+/* Coloured */
+
+.color{
+    background-color: rgba(53, 68, 53, 0.342);
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.space{
+    width: 70%;
+    padding: 30px;
+    display: flex;
+}
+
+.oneside h1{
+    font-size: 28px;
+    padding: 10px;
+}
+
+.oneside p,.twoside p{
+
+    padding: 10px;
+}
+
+
+/* Interested */
+
+.interested{
+    width: 70%;
+    padding: 50px 0px;
+}
+
+.In-container{
+    width: 50%;
+}
+
+.In-container h1 ,.In-container p{
+    padding: 10px 0px;
+}
+
+/* Footer */
+
+.color-footer{
+    padding: 10px 0px;
+    background-color:rgba(53, 68, 53, 0.342) ;
+}
+
+footer{
+    width: 70%;
+    display: flex;
+}
+footer h3{
+    margin-right: auto;
+}
+
+.socials ul{
+    display: flex;
+
+}
+
+.socials ul li{
+    margin-right: 30px;
+}
